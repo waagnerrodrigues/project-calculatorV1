@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/calculator.png" type="image/x-icon">
+    <title>Ambiente de estudo</title>
+</head>
+<body>
+  <div class="layout">
+        <input class="display" type="text">
+        <div class="calculator">
+        <input type="button" value="%" onclick="porCento()">
+        <input type="button" value="X" onclick="vezes()">
+        <input type="button" value="/" onclick="dividir()">
+        <input type="button" value="c" class="clear" onclick="limpar()">
+        <input type="button" value="9" onclick="clicar(9)">
+        <input type="button" value="8" onclick="clicar(8)">
+        <input type="button" value="7" onclick="clicar(7)">
+        <input type="button" value="+" onclick="somar()">
+        <input type="button" value="5" onclick="clicar(5)">
+        <input type="button" value="4" onclick="clicar(4)">
+        <input type="button" value="3" onclick="clicar(3)">
+        <input type="button" value="-" onclick="diminuir()">
+        <input type="button" value="3" onclick="clicar(3)">
+        <input type="button" value="2" onclick="clicar(2)">
+        <input type="button" value="1" onclick="clicar(1)">
+        <input type="button" class="igual" value="=" onclick="igual()">
+        <input type="button" class="button0" value="0" onclick="clicar(0)">
+        <input type="button" value="." onclick="ponto()">
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
